@@ -1,0 +1,103 @@
+.top-links, .header, .middle-inside {
+    display: flex;
+    padding: 32px;
+    gap: 16px    ;
+}
+
+.top-links, .header {
+    background-color: #1F2937;
+}
+
+
+.top-links {
+    justify-content: space-between;
+    margin: 0 10px; 
+    text-decoration: none;
+}
+
+.bolder {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #f9faf8;
+    padding: 0%;
+}
+
+.signup-btn {
+    background-color: #3882f6;
+    color: white;
+    border-radius: 8px;
+    padding: 5px    ;
+}
+
+h1 {
+    color: whi;
+}
+.less-bolder {
+    font-size: 18px;
+    color: #e5e7eb;
+    padding: 0% ;
+}
+
+.header {
+    justify-content: center;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.header, .wrap-me {
+    max-width: 80%;
+}
+
+.middle-inside {
+    justify-content: center;
+}
+
+.game-results { 
+    padding-left: 10px;
+    padding-right: 20px;
+    padding-top: 0px;
+}
+
+.bottom-top {
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 200;
+    align-items: center;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 20px;
+}
+
+.bottom {
+    display: flex;
+    background-color: #3882f6;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 30px;
+    border-radius: 8px;
+    width: 800px;
+    margin: 32px;
+}
+
+.action {
+    font-size: 16px;
+    margin: 0 20px;
+
+}
+
+.button-2 {
+    background-color: #3882f6;
+    border-radius: 8px;
+    border-color: white;
+    padding: 5px 20px;
+}
+
+footer {
+    background-color: #1f2937;
+    text-align: center;
+    color: white;
+    padding: 20px 0;
+    font-size: 12px ;
+    font-weight: 100;
+}
